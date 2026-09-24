@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Box with Bootstrap</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="shortcut icon" href="./images/nav/nav.svg" type="image/x-icon" />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <section class="nav">
+      <nav class="navbar navbar-expand-lg py-2 widthContainer">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand d-flex align-items-center fw-bold brand-text navLogo"
+            href="#"
+          >
+            <img
+              src="./images/nav/nav.svg"
+              alt="TheBox Logo"
+              width="40"
+              height="40"
+            />
+            <span><i>The</i>Box</span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav gap-3 gap-lg-6 fs-6">
+              <li class="nav-item">
+                <a class="nav-link nav-links" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-links" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-links" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-links" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-links" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <main>
+      <section
+        class="hero heroContent position-relative d-flex align-items-center"
+      >
+        <div class="widthContainer">
+          <div class="container position-relative z-1 py-5">
+            <div class="row align-items-center">
+              <div class="col-12 col-md-10 col-lg-7 text-center text-md-start">
+                <h1
+                  class="hero-heading fw-bold text-dark display-4 display-md-3 w-md-25"
+                >
+                  Building things is our mission.
+                </h1>
+              </div>
+            </div>
+          </div>
+
+          <aside
+            class="hero-feature-card position-absolute bottom-0 end-0 margin-auto z-2 mt-10"
+          >
+            <div
+              class="feature-card-content text-white p-2 p-md-4 text-center w-100"
+            >
+              <p
+                class="feature-card-subtitle text-uppercase small mb-2 fw-bold tracking-wide"
+              >
+                Feature Projects
+              </p>
+              <h2 class="feature-card-title fs-6 fs-md-1 fw-medium mb-0 m-auto">
+                The National University of Architecture
+              </h2>
+            </div>
+
+            <div class="feature-card-btns d-flex">
+              <button
+                type="button"
+                class="btn feature-control-btn w-50 py-1 text-white border-end rounded-0 d-flex align-items-center justify-content-center gap-2"
+              >
+                <img
+                  src="./images/hero/leftArrow.svg"
+                  alt="left Arrow button"
+                />
+                <span>Back</span>
+              </button>
+              <button
+                type="button"
+                class="btn feature-control-btn w-50 py-1 text-white rounded-0 d-flex align-items-center justify-content-center gap-2"
+              >
+                <span>Next</span>
+                <img
+                  src="./images/hero/rightArrow.svg"
+                  alt="right Arrow button"
+                />
+              </button>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="reputation py-4 py-md-3">
+        <div class="container py-md-4">
+          <h2
+            class="reputationTitle text-center fs-1 fw-bold mt-4 mt-md-6 mb-5 mb-md-5"
+          >
+            Our Reputation
+          </h2>
+
+          <div
+            class="reputationCards row gap-3 md-gap-5 justify-content-center"
+          >
+            <div class="col-12 col-md-5 col-lg-4 col-xl-3">
+              <div class="reputationCard border p-3 p-md-4 rounded-2">
+                <div class="icon-wrapper mb-3">
+                  <img
+                    src="./images/reputation/headset.svg"
+                    alt="Best Services Icon"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <h3 class="card-title fw-bold fs-5 mb-2">Best Services</h3>
+                <p class="card-text mb-0">
+                  Nullam senectus porttitor in eget. Eget rutrum leo interdum.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-4 col-xl-3">
+              <div class="reputationCard border p-3 p-md-4 rounded-2">
+                <div class="icon-wrapper mb-3">
+                  <img
+                    src="./images/reputation/headset.svg"
+                    alt="Best Teams Icon"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <h3 class="card-title fw-bold fs-5 mb-2">Best Teams</h3>
+                <p class="card-text mb-0">
+                  Cursus semper tellus volutpat aliquet lacus.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-4 col-xl-3">
+              <div class="reputationCard border p-3 p-md-4 rounded-2">
+                <div class="icon-wrapper mb-3">
+                  <img
+                    src="./images/reputation/scale.svg"
+                    alt="Best Designs Icon"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <h3 class="card-title fw-bold fs-5 mb-2">Best Designs</h3>
+                <p class="card-text mb-0">
+                  Ultricies at ipsum nunc, tristique nam lectus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about py-5">
+        <div class="container py-md-4">
+          <div
+            class="row align-items-center justify-content-start justify-content-xl-center position-relative p-4 p-xl-3"
+          >
+            <div class="col-12 col-lg-9">
+              <div class="about-image-wrapper overflow-hidden rounded-3">
+                <img
+                  src="./images/reputation/person.jpg"
+                  alt="About Person"
+                  class="img-fluid w-100 object-fit-cover"
+                />
+              </div>
+
+              <div
+                class="about-card custom-responsive-position top-0 end-0 custom-margin lh-sm lh-md-base p-2 p-md-4 p-xl-5 text-white rounded-3 text-center text-md-start"
+              >
+                <h2 class="fw-bold mb-3 fs-3 fs-md-2">About us</h2>
+                <p class="mb-3 fs-6 fs-md-5 fs-xl-4 opacity-90">
+                  For more than 30 years we have been delivering world-class
+                  construction and we’ve built many lasting relationships along
+                  the way.
+                </p>
+                <p class="mb-4 fs-6 fs-md-5 fs-xl-4 opacity-90">
+                  We’ve matured into an industry leader and trusted resource for
+                  those seeking quality, innovation and reliability when
+                  building in the U.S.
+                </p>
+                <a href="#" class="btn btn-light px-4 py-2">
+                  More on Our History
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

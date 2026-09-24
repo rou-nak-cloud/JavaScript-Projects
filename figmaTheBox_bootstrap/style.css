@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #fff;
+  max-width: 1920px;
+  margin: 0 auto !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  outline: none;
+  border: none;
+}
+
+.widthContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Nav section */
+.nav {
+  width: 100%;
+  background-color: #001aff2b;
+  position: relative;
+}
+
+.navLogo {
+  gap: 0.5rem;
+}
+
+.navLogo span {
+  font-size: 1.4rem;
+  color: #2947a9;
+}
+
+.nav-item a {
+  color: #14171f;
+}
+
+.nav-item:hover a {
+  color: #f9995d;
+}
+
+/* Hero section */
+.heroContent {
+  background: url("./images/hero/bg.png") no-repeat center / cover;
+
+  padding: 30px 0 190px;
+}
+
+.hero-heading {
+  width: 100%;
+}
+
+.hero-feature-card {
+  background-color: #3559c7;
+  color: #fff;
+  width: 248px;
+}
+
+.feature-card-title {
+  width: 98%;
+}
+
+.feature-card-btns {
+  background-color: #292e3d;
+  color: #fff;
+}
+
+/* reputation section */
+.reputationCard {
+  width: 292px;
+}
+
+/* About section */
+.about-card {
+  background-color: #2947a9;
+}
+
+.card-text {
+  color: #858ead;
+}
+
+.about-card a {
+  color: #2947a9;
+  font-weight: 600;
+}
+
+.custom-responsive-position {
+  position: static;
+}
+
+.about-card {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .heroContent {
+    padding: 120px 0;
+  }
+
+  .hero-heading {
+    width: 70%;
+  }
+
+  .hero-feature-card {
+    width: 328px;
+  }
+
+  .feature-card-title {
+    width: 90%;
+  }
+
+  .about-card {
+    width: 428px;
+    top: 200%;
+  }
+
+  .custom-margin {
+    margin-left: 17%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heroContent {
+    padding: 190px 0;
+  }
+
+  .hero-heading {
+    width: 85%;
+  }
+
+  .about-card {
+    width: 328px;
+  }
+
+  .custom-responsive-position {
+    position: absolute;
+  }
+}
+
+@media (min-width: 1440px) {
+  .heroContent {
+    padding: 190px 0;
+  }
+
+  .hero-heading {
+    width: 65%;
+  }
+
+  .feature-card-title {
+    width: 90%;
+  }
+
+  .about-card {
+    width: 388px;
+  }
+}

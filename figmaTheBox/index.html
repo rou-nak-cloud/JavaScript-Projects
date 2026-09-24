@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Box</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="shortcut icon" href="./images/nav/nav.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="nav">
+      <nav>
+        <div class="navWrapper widthContainer">
+          <div class="navLogo">
+            <a href="#">
+              <img src="./images/nav/nav.svg" alt="nav logo" />
+              <span><i>The</i>Box</span>
+            </a>
+          </div>
+          <div class="navItems">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+            <button type="button" class="btn barBtn" aria-label="navbarBtn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                <path
+                  d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="heroContent">
+          <div class="heroWrapper widthContainer">
+            <div class="heroHeading">
+              <h1>Building things is our mission.</h1>
+            </div>
+            <div class="heroFeaturesArea">
+              <div class="featuresAreaProject">
+                <p>Feature Projects</p>
+                <div class="featureSubHeading">
+                  <h3>The National University of Architecture</h3>
+                </div>
+              </div>
+              <div class="featuresAreaBtn">
+                <button type="button" class="btn backBtn">
+                  <img
+                    src="./images/hero/leftArrow.svg"
+                    alt="left Arrow button"
+                  />
+                  <span>Back</span>
+                </button>
+                <button type="button" class="btn nextBtn">
+                  <span>Next</span>
+                  <img
+                    src="./images/hero/rightArrow.svg"
+                    alt="right Arrow button"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reputation">
+        <div class="reputationContent widthContainer">
+          <h2>Our Reputation</h2>
+          <div class="reputationCards">
+            <div class="reputationCard">
+              <img src="./images/reputation/headset.svg" alt="Best Services" />
+              <h3>Best Services</h3>
+              <p>
+                Nullam senectus porttitor in eget. Eget rutrum leo interdum.
+              </p>
+            </div>
+            <div class="reputationCard">
+              <img src="./images/reputation/headset.svg" alt="Best Services" />
+              <h3>Best Teams</h3>
+              <p>Cursus semper tellus volutpat aliquet lacus.</p>
+            </div>
+            <div class="reputationCard">
+              <img src="./images/reputation/scale.svg" alt="Best Services" />
+              <h3>Best Designs</h3>
+              <p>Ultricies at ipsum nunc, tristique nam lectus.</p>
+            </div>
+          </div>
+          <div class="personContainer">
+            <div class="personImage">
+              <img src="./images/reputation/person.jpg" alt="A Person" />
+            </div>
+            <div class="aboutUs">
+              <h4>About Us</h3>
+              <p>
+                For more than 30 years we have been delivering world-class
+                construction and we've built many lasting relationships along the way. 
+              </p>
+              <p>We've matured into an industry leader and trusted resource for those seeking quality, innovation and reliability when building in the U.S.</p>
+              <button type="button" class="aboutUsBtn btn">
+                More on Our History
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="serviceContent">
+          <div class="serviceWrapper widthContainer">
+            <div class="serviceHeading">
+              <span>Services</span>
+            </div>
+            <div class="serviceCards">
+              <div class="serviceCard serviceConstruction">
+                <div class="serviceCardImg">
+                  <img
+                    src="./images/services/construction.svg"
+                    alt="service construction image"
+                  />
+                </div>
+                <div class="serviceCardLine">
+                  <hr />
+                </div>
+                <div class="serviceCardText">
+                  <span>Construction</span>
+                </div>
+              </div>
+              <div class="serviceCard serviceRenovation">
+                <div class="serviceCardImg">
+                  <img
+                    src="./images/services/renovation.svg"
+                    alt="service renovation image"
+                  />
+                </div>
+                <div class="serviceCardLine">
+                  <hr />
+                </div>
+                <div class="serviceCardText">
+                  <span>Renovation</span>
+                </div>
+              </div>
+              <div class="serviceCard serviceConsultation">
+                <div class="serviceCardImg">
+                  <img
+                    src="./images/services/consult.svg"
+                    alt="service consultation image"
+                  />
+                </div>
+                <div class="serviceCardLine">
+                  <hr />
+                </div>
+                <div class="serviceCardText">
+                  <span>Consultation</span>
+                </div>
+              </div>
+              <div class="serviceCard serviceRepair">
+                <div class="serviceCardImg">
+                  <img
+                    src="./images/services/repair.svg"
+                    alt="service repair image"
+                  />
+                </div>
+                <div class="serviceCardLine">
+                  <hr />
+                </div>
+                <div class="serviceCardText">
+                  <span>Repair Services</span>
+                </div>
+              </div>
+              <div class="serviceCard serviceArchitect">
+                <div class="serviceCardImg">
+                  <img
+                    src="./images/services/architect.svg"
+                    alt="service Architecture image"
+                  />
+                </div>
+                <div class="serviceCardLine">
+                  <hr />
+                </div>
+                <div class="serviceCardText">
+                  <span>Architecture</span>
+                </div>
+              </div>
+              <div class="serviceCard serviceElectric">
+                <div class="serviceCardImg">
+                  <img
+                    src="./images/services/electric.svg"
+                    alt="service electric image"
+                  />
+                </div>
+                <div class="serviceCardLine">
+                  <hr />
+                </div>
+                <div class="serviceCardText">
+                  <span>Electric</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience">
+        <div class="experienceContent widthContainer">
+          <div class="experienceContentWrapper">
+            <div class="experienceResults">
+              <div class="experienceResultsCard position1">
+                <div class="resultsCardContent">
+                  <div class="resultsCardImage1 img">
+                    <img
+                      src="./images/experience/handshake.svg"
+                      alt="handshake"
+                    />
+                  </div>
+                  <div class="resultsCardNumber">
+                    <h2>84</h2>
+                  </div>
+                  <div class="resultsCardName">
+                    <p>Happy Clients</p>
+                  </div>
+                </div>
+              </div>
+              <div class="experienceResultsCard position2">
+                <div class="resultsCardContent">
+                  <div class="resultsCardImage2 img">
+                    <img src="./images/experience/notes.svg" alt="notes" />
+                  </div>
+                  <div class="resultsCardNumber">
+                    <h2>123</h2>
+                  </div>
+                  <div class="resultsCardName">
+                    <p>Projects Completed</p>
+                  </div>
+                </div>
+              </div>
+              <div class="experienceResultsCard position3">
+                <div class="resultsCardContent">
+                  <div class="resultsCardImage3 img">
+                    <img src="./images/experience/prize.svg" alt="prize" />
+                  </div>
+                  <div class="resultsCardNumber">
+                    <h2>37</h2>
+                  </div>
+                  <div class="resultsCardName">
+                    <p>Awards Win</p>
+                  </div>
+                </div>
+              </div>
+              <div class="experienceResultsCard position4">
+                <div class="resultsCardContent">
+                  <div class="resultsCardImage4 img">
+                    <img
+                      src="./images/experience/blueprint.svg"
+                      alt="blueprint"
+                    />
+                  </div>
+                  <div class="resultsCardNumber">
+                    <h2>30</h2>
+                  </div>
+                  <div class="resultsCardName">
+                    <p>Years in Business</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="experienceYears">
+              <div class="yearsHeading">
+                <h2>30 Years Experience</h2>
+              </div>
+              <div class="yearsSubtitle">
+                <p>
+                  Our company has been the leading provided construction
+                  services to clients throughout the USA since 1988.
+                </p>
+              </div>
+              <div class="yearsBtn">
+                <button class="btn yearBtn" type="button">Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="consult">
+        <div class="consultWrapper widthContainer">
+          <div class="consultContent">
+            <div class="consultHeading">
+              <h2>Free consultation with exceptional quality</h2>
+            </div>
+            <div class="consultCall">
+              <label for="call">Just one call away: </label>
+              <input
+                readonly
+                type="tel"
+                id="call"
+                placeholder="+84 1102 2703"
+              />
+            </div>
+          </div>
+          <button class="consultBtn" type="button">
+            Get your consultation
+          </button>
+        </div>
+      </section>
+
+      <section class="projects">
+        <div class="projectsContent widthContainer">
+          <div class="projectsHeading">
+            <h2>Projects</h2>
+          </div>
+          <div class="projectsWrapper">
+            <div class="projectsTabs">
+              <h4 class="activeTab">All</h4>
+              <h4 class="notActiveTab">Commercial</h4>
+              <h4 class="notActiveTab">Residential</h4>
+              <h4 class="notActiveTab">Other</h4>
+            </div>
+            <div class="projectsShowcase">
+              <div class="projectsGrid">
+                <!-- Card 1 -->
+                <div class="projectCard">
+                  <div class="cardImage">
+                    <img
+                      src="./images/projects/wildstone.png"
+                      alt="Wildstone Infra Hotel"
+                    />
+                  </div>
+                  <div class="cardContent">
+                    <h4 class="cardTitle">Wildstone Infra Hotel</h4>
+                    <p class="cardSubtitle">
+                      2715 Ash Dr. San Jose, South Dakota
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="projectCard">
+                  <div class="cardImage">
+                    <img
+                      src="./images/projects/wishStone.png"
+                      alt="Wish Stone Building"
+                    />
+                  </div>
+                  <div class="cardContent">
+                    <h4 class="cardTitle">Wish Stone Building</h4>
+                    <p class="cardSubtitle">
+                      2972 Westheimer Rd. Santa Ana, Illinois
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="projectCard">
+                  <div class="cardImage">
+                    <img
+                      src="./images/projects/parkinston.png"
+                      alt="Mr. Parkinston's House"
+                    />
+                  </div>
+                  <div class="cardContent">
+                    <h4 class="cardTitle">Mr. Parkinston's</h4>
+                    <p class="cardSubtitle">
+                      3517 W. Gray St. Utica, Pennsylvania
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="projectCard">
+                  <div class="cardImage">
+                    <img
+                      src="./images/projects/oregano.png"
+                      alt="Oregano Height"
+                    />
+                  </div>
+                  <div class="cardContent">
+                    <h4 class="cardTitle">Oregano Height</h4>
+                    <p class="cardSubtitle">2464 Royal Ln. Mesa, New Jersey</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projectsNavigation">
+                <button class="navBtn">
+                  <span class="btnArrow"
+                    ><img src="./images/hero/leftArrow.svg" alt="left Arrow"
+                  /></span>
+                  Back
+                </button>
+
+                <div class="dotsPagination">
+                  <span class="dot active"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+
+                <button class="navBtn">
+                  Next
+                  <span class="btnArrow"
+                    ><img src="./images/hero/rightArrow.svg" alt="right arrow"
+                  /></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contactUs">
+        <div class="contactUsContent">
+          <div class="contactUsWrapper widthContainer">
+            <h4 class="contactUsTitle">What can us do for you?</h4>
+            <p class="contactUsSubtitle">
+              We are ready to work on a project of any complexity, whether it's
+              commercial or residential.
+            </p>
+
+            <form autocomplete="on" class="contactForm">
+              <div class="inputGrid">
+                <input
+                  type="text"
+                  class="formInput"
+                  placeholder="Your Name*"
+                  required
+                />
+                <input
+                  type="email"
+                  class="formInput"
+                  placeholder="Email*"
+                  required
+                />
+                <select aria-label="selection" class="formSelect" required>
+                  <option value="" disabled selected hidden>
+                    Reason for Contacting*
+                  </option>
+                  <option value="commercial">Commercial Project</option>
+                  <option value="residential">Residential Project</option>
+                  <option value="other">Other Inquiry</option>
+                </select>
+                <input type="tel" class="formInput" placeholder="Phone" />
+              </div>
+
+              <textarea
+                class="formTextarea"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+
+              <p class="requiredNotice">
+                <span>*</span> indicates a required field
+              </p>
+
+              <button type="submit" class="submitBtn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footerContent widthContainer">
+        <!-- Left Column: Contact Info , Logo -->
+        <div class="footerLeft">
+          <div class="infoList">
+            <div class="infoItem">
+              <span class="infoLabel">ADDRESS:</span>
+              <span class="infoText"
+                >6391 Elgin St. Celina, Delaware 10299</span
+              >
+            </div>
+            <div class="infoItem">
+              <span class="infoLabel">PHONE:</span>
+              <span class="infoText">+84 1102 2703</span>
+            </div>
+            <div class="infoItem">
+              <span class="infoLabel">EMAIL:</span>
+              <span class="infoText">hello@thebox.com</span>
+            </div>
+          </div>
+
+          <div class="footerLogo">
+            <img src="./images/nav/nav.svg" alt="TheBox Logo" class="logoImg" />
+            <span class="logoText">TheBox</span>
+          </div>
+        </div>
+
+        <!-- Right Column: Newsletter , Social Links -->
+        <div class="footerRight">
+          <div class="newsletterSection">
+            <h4 class="footerHeading">NEWSLETTER:</h4>
+            <form class="newsletterForm">
+              <input
+                type="email"
+                class="newsletterInput"
+                placeholder="Your email here"
+                required
+              />
+              <button type="submit" class="subscribeBtn">Subscribe</button>
+            </form>
+          </div>
+
+          <div class="socialSection">
+            <h4 class="footerHeading">SOCIAL:</h4>
+            <div class="socialIcons">
+              <a href="#" class="socialLink" aria-label="Facebook">
+                <img src="./images/socials/facebook.svg" alt="facebook" />
+              </a>
+              <a href="#" class="socialLink" aria-label="LinkedIn">
+                <img src="./images/socials/linkedin.svg" alt="linkedIn" />
+              </a>
+              <a href="#" class="socialLink" aria-label="Twitter">
+                <img src="./images/socials/twitter.svg" alt="twitter" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footerBottom">
+        <div class="widthContainer">
+          <p class="copyrightText">
+            TheBox Company &copy; 2026. All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

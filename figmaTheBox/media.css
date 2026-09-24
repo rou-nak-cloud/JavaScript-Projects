@@ -1,0 +1,1219 @@
+@media (max-width: 1440px) {
+  .widthContainer {
+    width: 80%;
+  }
+
+  .navLogo a span {
+    font-size: 1.4rem;
+  }
+
+  .navLogo a img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .navItems ul li {
+    font-size: 1rem;
+  }
+
+  .navItems ul {
+    gap: 2.1rem;
+  }
+
+  .heroHeading {
+    width: 55%;
+  }
+
+  .heroHeading h1 {
+    font-size: 56px;
+  }
+
+  .heroFeaturesArea {
+    margin-left: 5rem;
+    margin-top: 20rem;
+  }
+
+  .featuresAreaProject p {
+    font-size: 18px;
+  }
+
+  .featuresAreaProject h3 {
+    font-size: 20px;
+  }
+
+  .reputationCards {
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .reputationContent {
+    margin-top: 5rem;
+    margin-bottom: 0;
+  }
+
+  .personContainer {
+    margin: 7rem 0 0 0;
+    position: relative;
+  }
+
+  .aboutUs {
+    top: 78px;
+    right: 15px;
+
+    padding: 1.5rem;
+    gap: 12px;
+    width: 398px;
+  }
+
+  .aboutUs h3 {
+    font-size: 28px;
+  }
+
+  .aboutUs p {
+    width: 100%;
+    font-size: 17px;
+  }
+
+  .aboutUs .aboutUsBtn {
+    font-size: 16px;
+    margin-top: 1rem;
+    padding: 14px 24px;
+  }
+
+  .serviceCards {
+    gap: 78px;
+  }
+
+  .serviceContent {
+    margin: 2rem 0 2rem;
+  }
+
+  /* experience section */
+  .experienceResults {
+    min-height: 460px;
+  }
+
+  .experienceContentWrapper {
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .experienceResultsCard {
+    width: 280px;
+  }
+
+  .position2 {
+    left: 5px;
+    top: 90px;
+  }
+
+  .position3 {
+    right: 10px;
+    top: 240px;
+  }
+
+  .position4 {
+    left: 5px;
+    bottom: 5px;
+  }
+
+  .experienceYears .yearsHeading {
+    width: 100%;
+  }
+
+  .experienceYears .yearsHeading h2 {
+    font-size: 50px;
+  }
+
+  .experienceYears .yearsSubtitle {
+    width: 90%;
+  }
+
+  .experienceYears .yearsSubtitle p {
+    font-size: 18px;
+  }
+
+  /* consult */
+  .consultHeading {
+    width: 75%;
+  }
+
+  .consultBtn {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  /* projects */
+  .projectsShowcase {
+    width: 70%;
+  }
+
+  /* contact us */
+  .contactUsContent {
+    padding: 2rem 0;
+  }
+
+  .contactUsTitle {
+    font-size: 1.85rem;
+  }
+
+  .contactUsSubtitle {
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+
+  .submitBtn {
+    width: 45%;
+  }
+
+  /* footer */
+  .footerContent {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navItems ul {
+    gap: 2rem;
+  }
+
+  .heroFeaturesArea {
+    margin-left: 0rem;
+  }
+
+  .reputationCards {
+    justify-content: center;
+    gap: 29px;
+  }
+
+  .reputationCards {
+    margin: 3.5rem 0 0;
+  }
+
+  .personImage img {
+    width: 100%;
+  }
+
+  .aboutUs {
+    text-align: center;
+    position: relative;
+    top: -43px;
+    left: 0;
+    margin: 0 auto;
+    width: 558px;
+    gap: 10px;
+    padding: 2.5rem;
+  }
+
+  .aboutUs h3 {
+    margin: 0 auto;
+    font-size: 34px;
+    font-weight: 700;
+  }
+
+  .aboutUs p {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .aboutUs .aboutUsBtn {
+    font-size: 17px;
+    margin-top: 2rem;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 1.3rem;
+  }
+
+  .serviceCards {
+    justify-content: center;
+    gap: 58px;
+  }
+
+  /* experience section */
+  .experienceContent {
+    padding: 1rem 0;
+  }
+
+  .experienceContentWrapper {
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .experienceResults {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .experienceYears {
+    width: 48%;
+  }
+
+  .position1,
+  .position2,
+  .position3,
+  .position4 {
+    position: static;
+    top: 0;
+    right: 0;
+  }
+
+  .experienceResultsCard {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .resultsCardImage1,
+  .resultsCardImage2,
+  .resultsCardImage3,
+  .resultsCardImage4 {
+    position: absolute;
+    top: -10px;
+    right: -30px;
+    left: auto;
+    bottom: auto;
+  }
+
+  .experienceYears {
+    text-align: center;
+    gap: 3rem;
+  }
+
+  .yearsBtn {
+    width: 100%;
+  }
+
+  .yearBtn {
+    margin: 0 auto;
+    border-radius: 4px;
+  }
+
+  .experienceYears .yearsHeading h2 {
+    font-size: 54px;
+    /* Reduced from 60px */
+  }
+
+  .resultsCardNumber h2 {
+    font-size: 52px;
+    /* Reduced from 70px */
+  }
+
+  .yearsHeading,
+  .experienceYears .yearsSubtitle {
+    width: 100%;
+  }
+
+  /* consult */
+  .consult {
+    margin-top: 4rem;
+  }
+
+  /* projects */
+  .projectsContent {
+    padding: 2rem 0;
+  }
+
+  .projectsHeading {
+    margin: 1rem 0;
+    font-size: 28px;
+  }
+
+  .projectsWrapper {
+    justify-content: center;
+  }
+
+  .projectsShowcase {
+    width: 70%;
+  }
+
+  /* contact us */
+
+  .contactUsContent {
+    padding: 1rem 0;
+  }
+
+  .contactUsTitle {
+    font-size: 1.65rem;
+  }
+
+  .contactUsSubtitle {
+    font-size: 0.9rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .formInput,
+  .formSelect,
+  .formTextarea {
+    padding: 0.75rem 0.85rem;
+    font-size: 0.9rem;
+  }
+
+  .submitBtn {
+    width: 50%;
+  }
+
+  /* footer */
+  .footerContent {
+    justify-content: space-between;
+    padding: 2rem 0;
+  }
+
+  .socialLink img {
+    width: 30px;
+  }
+
+  .footerRight {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navLogo a span {
+    font-size: 1.5rem;
+  }
+
+  .navLogo a img {
+    height: 32px;
+    width: 32px;
+  }
+
+  .nav .barBtn {
+    display: block;
+  }
+
+  .nav .navItems ul {
+    display: none;
+  }
+
+  .heroWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .heroHeading {
+    width: 55%;
+  }
+
+  .heroHeading h1 {
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .heroFeaturesArea {
+    align-self: center;
+    width: 70%;
+    margin-top: 5rem;
+  }
+
+  .featuresAreaProject h3 {
+    font-size: 20px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .reputationContent {
+    margin-top: 3.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .personContainer {
+    margin: 3rem 0 1rem 0;
+    position: relative;
+  }
+
+  .personImage img {
+    width: 100%;
+  }
+
+  .aboutUs {
+    left: 0px;
+    gap: 16px;
+    padding: 1.5rem;
+    width: 488px;
+  }
+
+  .serviceContent {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .serviceHeading {
+    font-size: 2rem;
+    text-align: center;
+    padding: 3rem 0;
+  }
+
+  .resultsCardName p::before {
+    padding: 1px 0.7px;
+  }
+
+  /* experience section */
+  .experienceContentWrapper {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .experienceResults {
+    width: 48%;
+  }
+
+  .experienceYears {
+    width: 90%;
+  }
+
+  .experienceYears {
+    align-items: center;
+    padding: 0;
+    gap: 1.5rem;
+  }
+
+  .experienceYears .yearsHeading h2 {
+    font-size: 38px;
+  }
+
+  .experienceYears .yearsSubtitle p {
+    font-size: 18px;
+  }
+
+  .resultsCardNumber h2 {
+    font-size: 46px;
+  }
+
+  .resultsCardName p {
+    font-size: 18px;
+  }
+
+  .resultsCardName p::before {
+    top: 2px;
+    height: 17px;
+  }
+
+  /* consult */
+  .consult {
+    margin-top: 3rem;
+  }
+
+  .consultHeading {
+    width: 85%;
+  }
+
+  .consultHeading h2 {
+    font-size: 28px;
+  }
+
+  .consultCall label {
+    font-size: 18px;
+  }
+
+  .consultCall input[type="tel"] {
+    font-size: 18px;
+  }
+
+  /* projects */
+  .projectsContent {
+    padding: 3rem 0;
+  }
+
+  .projectsWrapper {
+    justify-content: center;
+  }
+
+  .projectsHeading {
+    font-size: 26px;
+    margin: 1rem 0;
+  }
+
+  .projectsTabs h4 {
+    font-size: 20px;
+  }
+
+  .projectsTabs {
+    gap: 1rem;
+  }
+
+  .projectsShowcase {
+    width: 70%;
+  }
+
+  .cardContent {
+    padding: 0.6rem;
+  }
+
+  .cardTitle {
+    font-size: 1.05rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .cardSubtitle {
+    color: #ffffff;
+    font-size: 0.85rem;
+  }
+
+  .navBtn {
+    padding: 0.5rem 1.5rem;
+    width: 30%;
+  }
+}
+
+@media (max-width: 431px) {
+  .heroHeading h1 {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .heroHeading {
+    width: 90%;
+  }
+
+  .heroFeaturesArea {
+    width: 100%;
+  }
+
+  .reputationCard {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .reputationCard h3 {
+    font-size: 18px;
+  }
+
+  .reputationCard p {
+    font-size: 16px;
+  }
+
+  .aboutUs {
+    width: 85%;
+  }
+
+  .aboutUs h3 {
+    font-size: 22px;
+  }
+
+  .aboutUs p {
+    font-size: 16px;
+  }
+
+  .aboutUs .aboutUsBtn {
+    padding: 8px 10px;
+
+    font-size: 15px;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+
+  .serviceContent {
+    margin: 0.2rem 0;
+  }
+
+  .serviceHeading {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.8rem 0 1.5rem 0;
+  }
+
+  .serviceCards {
+    gap: 28px;
+  }
+
+  /* experience section */
+
+  .experienceResultsCard {
+    width: 320px;
+  }
+
+  .resultsCardImage1,
+  .resultsCardImage2,
+  .resultsCardImage3,
+  .resultsCardImage4 {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    left: auto;
+    bottom: auto;
+  }
+
+  .experienceYears .yearsHeading h2 {
+    font-size: 29px;
+    font-weight: 700;
+  }
+
+  .experienceYears .yearsSubtitle {
+    width: 100%;
+  }
+
+  .experienceYears .yearsSubtitle p {
+    font-size: 16px;
+  }
+
+  .experienceContent {
+    padding: 1.5rem 0;
+  }
+
+  .resultsCardNumber h2 {
+    font-size: 40px;
+  }
+
+  .resultsCardName p {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  .resultsCardName p::before {
+    left: -10px;
+    width: 4px;
+    height: 15px;
+  }
+
+  .img img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .yearsBtn .yearBtn {
+    padding: 12px 18px;
+    font-size: 16px;
+    width: 80%;
+  }
+
+  /* consult */
+  .consult {
+    margin-top: 2rem;
+    padding: 2rem 0;
+  }
+
+  .consultWrapper {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .consultHeading {
+    width: 100%;
+  }
+
+  .consultHeading h2 {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .consultCall {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .consultCall label {
+    font-size: 16px;
+  }
+
+  .consultCall input[type="tel"] {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  /* project section */
+  .projectsContent {
+    padding: 2.2rem 0;
+  }
+
+  .projectsHeading {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .projectsWrapper {
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0.5rem;
+  }
+
+  /* Projects Tabs */
+  .projectsTabs {
+    flex-wrap: wrap;
+    gap: 0.1rem;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .projectsContent {
+    padding: 2rem 0;
+  }
+
+  .projectsHeading h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+
+  .projectsTabs h4 {
+    font-size: 1.2rem;
+    padding: 0.35rem 0.65rem;
+  }
+
+  .projectsTabs .activeTab::before {
+    display: none;
+  }
+
+  .projectsShowcase {
+    width: 100%;
+  }
+
+  .projectsGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cardContent {
+    padding: 0.5rem;
+  }
+
+  .cardTitle {
+    font-size: 0.95rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .cardSubtitle {
+    font-size: 0.75rem;
+  }
+
+  /* Navigation Bar */
+  .projectsNavigation {
+    display: none;
+  }
+
+  /* contact us */
+
+  .contactUsContent {
+    padding: 1.5rem 0rem;
+  }
+
+  .contactUsTitle {
+    font-size: 1.6rem;
+  }
+
+  .contactUsSubtitle {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .inputGrid {
+    gap: 0.65rem;
+    grid-template-columns: 1fr;
+  }
+
+  .formInput,
+  .formSelect,
+  .formTextarea {
+    padding: 0.6rem 0.65rem;
+    font-size: 0.8rem;
+  }
+
+  .requiredNotice {
+    font-size: 0.725rem;
+    margin-bottom: 1rem;
+  }
+
+  .submitBtn {
+    width: 100%;
+    padding: 0.7rem 0;
+    font-size: 0.875rem;
+  }
+
+  /* footer */
+  .footerContent {
+    flex-direction: column-reverse;
+    gap: 2.5rem;
+    padding: 0rem 1rem 2rem;
+  }
+
+  .footerLeft {
+    gap: 2rem;
+  }
+
+  .infoList {
+    gap: 1rem;
+  }
+
+  .infoItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .infoLabel {
+    min-width: auto;
+    font-size: 0.85rem;
+  }
+
+  .infoText {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .infoItem {
+    align-items: center;
+  }
+
+  .footerRight {
+    width: 100%;
+    gap: 1.75rem;
+  }
+
+  .newsletterForm {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .newsletterInput {
+    padding: 0.75rem 0.85rem;
+    font-size: 0.875rem;
+  }
+
+  .subscribeBtn {
+    width: 100%;
+    padding: 0.75rem 0;
+    font-size: 0.9rem;
+  }
+
+  .footerBottom {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .socialSection,
+  .socialIcons {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .footerLogo {
+    justify-content: center;
+  }
+
+  .copyrightText {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .widthContainer {
+    width: 90%;
+  }
+
+  .nav {
+    padding: 0.5rem 0;
+  }
+
+  .navLogo a span {
+    font-size: 1.2rem;
+  }
+
+  .navLogo a {
+    gap: 0.7rem;
+  }
+
+  .navLogo a img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .heroContent {
+    height: 60vh;
+  }
+
+  .heroHeading {
+    width: 90%;
+  }
+
+  .heroHeading h1 {
+    text-align: center;
+    font-size: 2.1rem;
+  }
+
+  .heroFeaturesArea {
+    align-self: flex-end;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .featuresAreaProject {
+    width: 90%;
+    padding: 10px 7px 7px 7px;
+    gap: 10px;
+  }
+
+  .featuresAreaProject p {
+    font-size: 15px;
+  }
+
+  .featuresAreaProject h3 {
+    font-size: 17px;
+  }
+
+  .featuresAreaBtn {
+    width: 90%;
+  }
+
+  .featuresAreaBtn .backBtn,
+  .featuresAreaBtn .nextBtn > span {
+    font-size: 14px;
+  }
+
+  .reputationContent {
+    margin: 2rem auto;
+  }
+
+  .reputationContent h2 {
+    margin: 3rem auto;
+    /* width: 80%; */
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .reputationCard {
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .reputationCard h3 {
+    font-size: 18px;
+  }
+
+  .reputationCard p {
+    font-size: 16px;
+  }
+
+  .personImage img {
+    width: 100%;
+  }
+
+  .aboutUs {
+    width: 90%;
+    top: -15px;
+    left: 0px;
+    gap: 12px;
+    padding: 1rem;
+  }
+
+  .aboutUs h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .aboutUs p {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .aboutUs .aboutUsBtn {
+    font-size: 14px;
+    margin-top: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    padding: 8px 10px 8px 10px;
+  }
+
+  .serviceContent {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .serviceHeading {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  .serviceCards {
+    gap: 18px;
+  }
+
+  .serviceCardLine hr {
+    width: 20vw;
+  }
+
+  /* experience section */
+  .experienceYears .yearsHeading h2 {
+    font-size: 26px;
+  }
+
+  .experienceResultsCard {
+    width: 230px;
+  }
+
+  .resultsCardImage1,
+  .resultsCardImage2,
+  .resultsCardImage3,
+  .resultsCardImage4 {
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    left: auto;
+    bottom: auto;
+  }
+
+  .resultsCardNumber h2 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  .resultsCardName p {
+    font-size: 15px;
+  }
+
+  .img img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .experienceYears .yearsHeading h2 {
+    font-size: 26px;
+  }
+
+  .experienceYears .yearsSubtitle {
+    width: 100%;
+  }
+
+  .experienceYears .yearsSubtitle p {
+    font-size: 16px;
+  }
+
+  .yearsBtn .yearBtn {
+    padding: 9px 10px 9px 10px;
+    width: 80%;
+  }
+
+  /* consult */
+  .consult {
+    margin-top: 2rem;
+    padding: 2rem 0;
+  }
+
+  .consultWrapper {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .consultHeading {
+    width: 100%;
+  }
+
+  .consultHeading h2 {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .consultCall {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .consultCall label {
+    font-size: 16px;
+  }
+
+  .consultCall input[type="tel"] {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  /* project section */
+  .projectsContent {
+    padding: 2.4rem 0;
+  }
+
+  .projectsHeading {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .projectsWrapper {
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0.5rem;
+  }
+
+  /* Projects Tabs */
+  .projectsTabs {
+    flex-wrap: wrap;
+    gap: 0.1rem;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .projectsTabs h4 {
+    font-size: 1.2rem;
+    padding: 0.35rem 0.65rem;
+  }
+
+  .projectsTabs .activeTab::before {
+    display: none;
+  }
+
+  .projectsShowcase {
+    width: 100%;
+  }
+
+  .projectsGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cardContent {
+    padding: 0.5rem;
+  }
+
+  .cardTitle {
+    font-size: 0.95rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .cardSubtitle {
+    font-size: 0.75rem;
+  }
+
+  /* Navigation Bar */
+  .projectsNavigation {
+    display: none;
+    /* flex-direction: column;
+    gap: 1rem; */
+  }
+
+  /* .navBtn {
+    width: 100%;
+    padding: 0.65rem 1rem;
+    font-size: 0.875rem;
+  }
+
+  .dotsPagination {
+    order: -1; 
+    gap: 0.5rem;
+  } */
+
+  /* contact us */
+
+  .contactUsContent {
+    padding: 1.5rem 0rem;
+  }
+
+  .contactUsTitle {
+    font-size: 1.4rem;
+  }
+
+  .contactUsSubtitle {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+}

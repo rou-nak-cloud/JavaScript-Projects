@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Weather</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="searchBox">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search city temperature..."
+        autocomplete="off"
+      />
+      <span class="errorMessage" id="errorMessage"></span>
+    </div>
+    <div class="weatherContainer">
+      <div class="weatherCard" id="weatherCard">
+        <h2 class="city" id="cityName"></h2>
+        <p class="date" id="localDate"></p>
+
+        <div class="iconText">
+          <div class="iconBox" id="weatherIcon">
+            <!-- <img src="" alt="weatherIcon" /> -->
+          </div>
+          <div class="tempCondition">
+            <h1 class="temp" id="temperature"></h1>
+            <h3 class="condition" id="weatherCondition"></h3>
+          </div>
+        </div>
+
+        <div class="extraInfo">
+          <span class="greetText" id="greetText"
+            >Sun, rain, or shine—we've got you covered.</span
+          >
+          <div class="detailsMetrics">
+            <div class="detailItem">
+              <span class="label">Rain Chance</span>
+              <span class="value" id="rainChance"></span>
+            </div>
+            <div class="detailItem">
+              <span class="label">Humidity</span>
+              <span class="value" id="humidity"></span>
+            </div>
+            <div class="detailItem">
+              <span class="label">Feels Like</span>
+              <span class="value" id="feelsLike"></span>
+            </div>
+            <div class="detailItem">
+              <span class="label">Precipitation</span>
+              <span class="value" id="precipitation"></span>
+            </div>
+            <div class="detailItem">
+              <span class="label">Will Rain</span>
+              <span class="value" id="willRain"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
